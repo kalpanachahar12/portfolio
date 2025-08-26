@@ -1,0 +1,83 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* HEX */
+    margin-left: 0px;
+    padding: 0;
+  }
+  
+  /* ID Selector */
+  #main-header {
+    background-color: rgb(34, 45, 67); /* RGB */
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+  }
+  
+
+  .about-section {
+    background-color: rgba(0, 128, 255, 0.1); 
+    padding: 20px;
+    border-left: 5px solid hsl(200, 80%, 40%); 
+   
+  }
+  
+
+  .highlight {
+    color: #ff6600; /* HEX */
+    font-weight: bold;
+  }
+  
+  
+  .team[data-role="developers"] {
+    color: rgb(0, 128, 0);
+  }
+  .team[data-role="designers"] {
+    color: hsl(300, 70%, 40%);
+  }
+  
+  
+  a:hover {
+    color: #e63946;
+    text-decoration: underline;
+  }
+  
+  
+  .about-section p::first-letter {
+    font-size: 2em;
+    color: #008080;
+    font-weight: bold;
+  }
+ 
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  ul li.favorite {
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(255, 215, 0, 0.3);
+  }
+  
+ 
+  ol {
+    list-style-type: upper-roman;
+    background-color: hsl(210, 50%, 95%);
+    border: 2px dashed #333;
+    padding: 15px;
+  }
+  
+  ol li {
+    padding: 5px;
+  }
+  
+  ol li:nth-child(odd) {
+    color: rgb(200, 0, 100);
+  }
+  
+  ol li:nth-child(even) {
+    color: rgba(0, 0, 200, 0.8);
+  }
